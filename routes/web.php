@@ -1,5 +1,6 @@
 <?php
 
+Route::get('/captchas', 'TestController@index');
 Route::get('/', 'TopicsController@index')->name('root');
 
 // Authentication Routes...
